@@ -29,6 +29,7 @@ before_install:
 env:
   - ACTIVE_MODEL_VERSION='~> 3.2.0'
   - ACTIVE_MODEL_VERSION='~> 4.0'
+  - JRUBY_OPTS=''
 gemfile: Gemfile
 notifications:
   recipients:
