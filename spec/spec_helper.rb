@@ -8,7 +8,8 @@ end
 
 begin
   require 'pry-byebug'
-rescue LoadError
+rescue StandardError => e
+  puts "Pry load failed: #{e}"
 end
 
 # Set up gems listed in the Gemfile.
