@@ -23,7 +23,7 @@ rescue Bundler::GemNotFound => e
   exit!
 end
 
-Bundler.require(:spec)
+# Bundler.require(:spec)
 
 require 'trello'
 require 'webmock/rspec'
